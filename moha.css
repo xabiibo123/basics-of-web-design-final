@@ -1,0 +1,114 @@
+.farax {
+  text-align: center;
+}
+.farax h1 {
+  background-color: rgb(202, 199, 199);
+  padding: 20px;
+}
+.farax p {
+  background-color: rgb(190, 188, 188);
+  padding: 30px;
+  font-size: 30px;
+}
+.zamiir {
+  text-align: center;
+}
+.zaki p {
+  text-align: center;
+  background-color: rgb(211, 207, 207);
+  padding: 20px;
+}
+.runaldo .boxi img {
+  width: 200px;
+  margin-top: 30px;
+}
+.runaldo .boxi {
+  display: flex;
+  margin-left: 20%;
+}
+.dhaman {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.dhaman img:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.dhaman .bilaw2 img {
+  width: 80%;
+}
+.dhaman .bilaw7 p {
+  background-color: rgb(243, 189, 189);
+  font-weight: 900;
+  font-size: 20px;
+}
+.dhaman img {
+  border-radius: 7px;
+}
+.rash {
+  display: flex;
+  align-items: center;
+  padding: 10px 5%;
+}
+.rash ul {
+  flex: 1;
+  text-align: right;
+}
+.rash ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.rash ul li a {
+  text-decoration: none;
+  color: midnightblue;
+}
+.rash ul li a:hover {
+  color: rgb(253, 16, 16);
+}
+.badhan {
+  text-align: center;
+  margin-top: 20px;
+}
+.badhan .ll {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 80px;
+}
+.badhan .ll:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transform: scale(1.3);
+  transition: 1.2s;
+}
+.badhan .ll a {
+  color: rgb(94, 80, 253);
+}
+.badhan .ll a:hover {
+  color: rgb(76, 82, 255);
+}
+.badhan .ll a {
+  text-decoration: none;
+}
+.mii1 {
+  text-align: center;
+}
+.mii2 p {
+  margin-left: 15%;
+  font-size: 20px;
+  color: grey;
+}
+.mii3 p {
+  margin-left: 10%;
+  font-size: 20px;
+  color: grey;
+}

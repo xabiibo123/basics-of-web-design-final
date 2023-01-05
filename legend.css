@@ -1,0 +1,474 @@
+.sec .card {
+  background: #363333;
+  width: 240px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.sec .card img {
+  width: 75%;
+  padding: 20px;
+}
+
+.sec .card .img {
+  margin-right: -30px;
+}
+.sec .card .title {
+  text-align: center;
+  font-size: 20px;
+}
+.sec .card .box .btn {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 20px;
+  padding: 9px;
+  border: 1px solid red;
+}
+.sec .card .box .btn:hover {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+}
+
+.sec .card .box .btn a:hover {
+  color: white;
+  text-decoration: none;
+}
+.sec .card .title {
+  color: white;
+}
+.sec .card .box .btn a {
+  text-decoration: none;
+}
+.sec {
+  padding: 5px;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+.sec .card .img:hover {
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.sec {
+  margin: 50px;
+  background-color: rgb(13, 1, 1);
+  margin-top: 100px;
+}
+.sec .card {
+  margin-left: 70px;
+}
+.ciwan {
+  text-align: center;
+  background-color: rgb(237, 237, 237);
+  border: 50px;
+}
+.ciwan h1 {
+  font-size: 50px;
+}
+
+.ciwan p {
+  font-size: 30px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.som-1 {
+  margin-top: 90px;
+  padding: 50px;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(97, 54, 47);
+}
+.som-1 h1 {
+  color: yellow;
+}
+.som-2 {
+  background-color: bisque;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.som-4 {
+  padding: 30px;
+  color: white;
+  background-color: rgb(74, 74, 149);
+  margin-top: 20px;
+}
+
+.som-4 h1 {
+  color: aqua;
+}
+
+.som-5 {
+  padding: 20px;
+  background-color: rgb(10, 164, 198);
+  margin-top: 30px;
+}
+.som-j p {
+  color: white;
+}
+.som-6 {
+  padding: 15px;
+  background-color: orange;
+  margin-top: 30px;
+  padding: 40px;
+}
+.som-7 img {
+  margin-left: 80px;
+}
+.sec .som-8 {
+  display: flex;
+  margin-top: 30px;
+  font-size: 10px;
+  color: white;
+  margin-left: 50%;
+  font-size: 11px;
+}
+.som-9 {
+  padding: 30px;
+  background-color: rgb(136, 109, 89);
+}
+
+.som-10 img {
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.som-10 img:hover {
+  transition: 0.5s;
+  transform: translateY(-20px);
+}
+.math h3 {
+  text-align: center;
+  margin-top: 25px;
+  background-color: rgb(190, 123, 21);
+}
+.math p {
+  text-align: center;
+  background-color: rgb(173, 180, 173);
+}
+.bio {
+  padding: 20px;
+  background-color: rgb(131, 125, 135);
+}
+.bio p {
+  display: flex;
+}
+.carab {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: center;
+}
+.carab p {
+  margin-top: 10px;
+  background-color: rgb(220, 203, 118);
+}
+.carab {
+  margin-top: 25px;
+  background-color: rgb(56, 58, 54);
+}
+.ken {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: center;
+  background-color: rgb(178, 174, 174);
+}
+.seri h1 {
+  text-align: center;
+  background-color: rgb(173, 168, 168);
+}
+.seri p {
+  background-color: rgb(25, 42, 42);
+  border: 2px solid black;
+  margin-top: 25px;
+  color: white;
+  padding: 50px;
+  font-size: 30px;
+}
+/*shorcose section*/
+.suban {
+  width: 90vw;
+  margin: auto;
+}
+.naa img {
+  margin-left: 20%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  height: fit-content;
+}
+
+.col-2 {
+  flex-basis: 45%;
+  min-height: 400px;
+  margin: 2%;
+  padding: 15px;
+  background-color: rgb(247, 241, 233);
+}
+.col-2 img {
+  width: 100%;
+}
+.hangry {
+  background-color: rgb(138, 133, 133);
+  background-image: linear-gradient(red);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.hangry h1 {
+  background-color: #fff;
+  color: black;
+}
+.kante img {
+  margin-top: 25px;
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+}
+.kante {
+  background-color: blue;
+}
+.para img {
+  text-align: center;
+  margin-top: 10px;
+  width: 40%;
+  margin-left: 15px;
+}
+.para p {
+  margin-left: 20%;
+  font-size: 20px;
+}
+.para p {
+  border: 1px solid red;
+}
+.para {
+  background-color: beige;
+}
+.cave img {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.cave {
+  text-align: center;
+  margin-top: 15%;
+}
+.box .btn {
+  margin-top: 20px;
+  margin-left: 50%;
+  padding: 10px;
+  border: 1px solid red;
+  font-weight: 900;
+}
+.box .btn a {
+  text-decoration: none;
+  color: black;
+}
+.box .btn a:hover {
+  color: white;
+}
+.box .btn:hover {
+  background-color: red;
+  color: white;
+}
+.kuli {
+  background-color: rgb(211, 211, 211);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+  margin-top: -50px;
+}
+
+.cave-1 img {
+  width: 60%;
+}
+.cave-1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.head-1 h1 {
+  text-align: center;
+  background-color: rgb(199, 199, 199);
+  padding: 20px;
+}
+.mounta {
+  background-color: black;
+}
+.caano h1 {
+  background-color: cornflowerblue;
+  text-align: center;
+}
+.caano p {
+  background-color: darkgoldenrod;
+  text-align: center;
+  font-size: 20px;
+}
+.biyo p {
+  font-size: 25px;
+  background-color: aqua;
+}
+.bakeri {
+  display: flex;
+}
+.bakeri img {
+  margin-left: 30px;
+}
+.okul img {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+.okul {
+  background-color: green;
+}
+.isku img {
+  width: 40%;
+  text-align: center;
+  margin-left: 80px;
+}
+.isku {
+  display: flex;
+}
+.raabka p {
+  display: flex;
+  position: absolute;
+}
+.rash {
+  display: flex;
+  align-items: center;
+  padding: 10px 5%;
+}
+.rash ul {
+  flex: 1;
+  text-align: right;
+}
+.rash ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.rash ul li a {
+  text-decoration: none;
+  color: midnightblue;
+}
+.rash ul li a:hover {
+  color: rgb(253, 16, 16);
+}
+.malmal h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.arko {
+  text-align: center;
+  margin-top: 25px;
+}
+.arko img {
+  padding-top: 20px;
+}
+.arko img {
+  width: 70%;
+}
+.arko p {
+  text-align: center;
+  margin-top: 25px;
+}
+.dove h1 {
+  text-align: center;
+  font-size: 35px;
+}
+.dove p {
+  text-align: center;
+  font-size: 2opx;
+}
+.malab {
+  background-color: rgb(218, 218, 218);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.malab {
+  border-radius: 10px;
+}
+.darbi {
+  margin-left: 5px;
+}
+.erfon {
+  text-align: center;
+}
+.galab h1 {
+  text-align: center;
+}
+.yaab {
+  background-color: rgb(188, 186, 186);
+}
+.naa {
+  margin-left: 35px;
+}
+.garka {
+  text-align: center;
+  margin-top: 25px;
+}
+.garka p {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+.bar {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.yar {
+  margin-left: 55px;
+  margin-top: 25px;
+}
+.weyn {
+  text-align: center;
+  margin-top: 25px;
+}
+.walalka {
+  background-color: rgb(153, 150, 150);
+}
+.casamiro p {
+  display: flex;
+}
+.daqad {
+  font-size: 30px;
+}
+.senyeri {
+  text-align: center;
+  width: 70%;
+  margin-left: 30px;
+}
+.abeee p {
+  text-align: center;
+  font-size: 20px;
+}
+.kart .biin {
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 7px;
+}
+.kart .biin:hover {
+  background-color: black;
+  color: white;
+}
+.kart .biin a {
+  text-decoration: none;
+  color: white;
+}

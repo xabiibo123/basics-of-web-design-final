@@ -1,0 +1,61 @@
+/*hero section*/
+.hero {
+  background-color: rgb(195, 191, 183);
+  background-image: linear-gradient(red);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+}
+.hero h1 {
+  background-color: #fff;
+  color: black;
+}
+.jakad {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.qoraal {
+  display: flex;
+}
+.qoraal h1 {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.pedro h1 {
+  background-color: rgb(95, 93, 91);
+  text-align: center;
+  font-size: 30px;
+}
+.pedro p {
+  background-color: rgb(127, 124, 130);
+}
+.badhan {
+  text-align: center;
+  margin-top: 20px;
+}
+.kart .biin {
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 7px;
+}
+.kart .biin:hover {
+  background-color: black;
+  color: white;
+}
+.kart .biin a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,132 @@
+.ayeeyo h1 {
+  text-align: center;
+  background-color: rgb(200, 194, 194);
+  padding: 20px;
+}
+.ayeeyo p {
+  text-align: center;
+  background-color: rgb(202, 202, 202);
+  padding: 20px;
+  font-size: 30px;
+}
+.taliye {
+  text-align: center;
+}
+.ciidan p {
+  text-align: center;
+  background-color: rgb(207, 206, 206);
+  font-size: 30px;
+}
+.extr {
+  text-align: center;
+}
+.core h1 {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(147, 140, 140);
+}
+.core p {
+  text-align: center;
+
+  background-color: rgb(168, 166, 166);
+  font-size: 30px;
+}
+.col p {
+  text-align: center;
+  background-color: rgb(229, 224, 224);
+  font-size: 20px;
+}
+.col h1 {
+  text-align: center;
+}
+.col small {
+  font-size: 19px;
+}
+
+.box {
+  display: flex;
+}
+
+.box img {
+  border: 3px solid red;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.box {
+  padding: 20px;
+}
+/*hero section*/
+.hero {
+  background-color: rgb(163, 138, 74);
+  background-image: linear-gradient(red);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  background-color: #fff;
+  color: black;
+}
+/*shorcose section*/
+.container {
+  width: 90vw;
+  margin: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  height: fit-content;
+}
+
+.col-2 {
+  flex-basis: 45%;
+  min-height: 400px;
+  margin: 2%;
+  padding: 15px;
+  background-color: rgb(247, 241, 233);
+}
+.col-2 img {
+  width: 100%;
+}
+.dolar {
+  background-color: rgb(218, 218, 218);
+}
+.dolar .darbi img {
+  margin-left: 15%;
+}
+.miis img {
+  margin-left: 15%;
+}
+.dolar .darbi .casamiro .box {
+  display: flex;
+  margin-left: 20%;
+}
+.casamiro .box img {
+  width: 30%;
+}
+.casamiro .box {
+  display: flex;
+  margin-left: 20%;
+}
+.kart .biin {
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  border-radius: 7px;
+}
+.kart .biin:hover {
+  background-color: black;
+  color: white;
+}
+.kart .biin a {
+  text-decoration: none;
+  color: white;
+}
